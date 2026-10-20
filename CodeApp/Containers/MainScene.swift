@@ -221,7 +221,7 @@ private struct MainView: View {
             }
         }
         .background(Color.init(id: "sideBar.background").edgesIgnoringSafeArea(.all))
-        .accentColor(Color.init(id: "activityBar.inactiveForeground"))
+        .accentColor(Color(red: 0.18, green: 0.72, blue: 0.62))
         .navigationTitle(
             URL(string: App.workSpaceStorage.currentDirectory.url)?.lastPathComponent ?? ""
         )
